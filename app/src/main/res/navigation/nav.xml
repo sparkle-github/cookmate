@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="edu.sjsu.android.cookmate.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_detailScreen"
+            app:destination="@id/detailScreen" />
+        <argument
+            android:name="id"
+            app:argType="long" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="image"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailScreen"
+        android:name="edu.sjsu.android.cookmate.DetailScreen"
+        android:label="fragment_detail_screen"
+        tools:layout="@layout/fragment_detail_screen" />
+    <fragment
+        android:id="@+id/informationScreen"
+        android:name="edu.sjsu.android.cookmate.InformationScreen"
+        android:label="fragment_information_screen"
+        tools:layout="@layout/fragment_information_screen" >
+    </fragment>
+    <fragment
+        android:id="@+id/profilePageScreen"
+        android:name="edu.sjsu.android.cookmate.ProfilePage"
+        android:label="fragment_profile_page"
+        tools:layout="@layout/fragment_profile_page" >
+        <action
+            android:id="@+id/action_profilePageScreen_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedRecipes"
+        android:name="edu.sjsu.android.cookmate.SavedRecipeFragment"
+        android:label="saved_recipes"
+        tools:layout="@layout/saved_recipe" >
+        <action
+            android:id="@+id/action_mainFragment_to_detailScreen"
+            app:destination="@id/detailScreen" />
+        <argument
+            android:name="id"
+            app:argType="long" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="image"
+            app:argType="string" />
+    </fragment>
+</navigation>

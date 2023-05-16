@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CookMate</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_register">Register</string>
+    <string name="already_a_member">Already a member? Login</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="error_password_match">Passwords don\'t match</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="no_results_try_a_different_search">No results! Try a different search</string>
+    <string name="network_error">Network Error</string>
+    <string name="about_app">About App</string>
+    <string name="home">Home</string>
+    <string name="saved_recipes">Saved Recipes</string>
+    <string name="logout">Logout</string>
+</resources>
